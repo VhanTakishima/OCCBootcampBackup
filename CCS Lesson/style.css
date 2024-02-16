@@ -1,0 +1,50 @@
+/* element selector
+h1{
+    color:red;
+} */
+/* class selector */
+/* .heading1{
+    color: orange;
+} */
+/* ID selector */
+/* #heading2{
+    color: purple;
+} */
+
+/* attribute selector */
+/* a[title = "google.com"] {
+    /* background-color: pink; 
+} */
+
+/* universal selector */
+/* *{
+    color:black;
+} */
+
+/* grouping/compound selector */
+/* h1,a{
+    background-color: green;
+} */
+
+/* descendant selector */
+/* div p{
+    color: blue;
+} */
+
+/* psuedo classes selector
+ div p:first-of-type{
+    color: blue;
+} */
+/* 
+p:hover{
+    color: magenta;
+    cursor: pointer;
+} */
+
+/* psuedo element */
+/* p::first-letter{
+    color: red;
+} */
+p::after{
+    content: " I am Jay ";
+}
